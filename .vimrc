@@ -23,13 +23,14 @@ syntax enable          " Use syntax highlighting
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/.vim/plugins')
 
-" let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'scrooloose/nerdtree'
+
+Plugin 'ctrlpvim/ctrlp.vim'         " File search
+Plugin 'scrooloose/nerdtree'        " File tree
 Plugin 'Konstruktionist/vim'
+Plugin 'mxw/vim-jsx'                " React syntax highlighting and indenting for vim.
+Plugin 'pangloss/vim-javascript'    " Javascript Highlighter
 
 
 " All of your Plugins must be added before the following line
