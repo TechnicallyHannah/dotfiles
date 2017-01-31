@@ -31,6 +31,7 @@ Plugin 'scrooloose/nerdtree'        " File tree
 Plugin 'Konstruktionist/vim'
 Plugin 'mxw/vim-jsx'                " React syntax highlighting and indenting for vim.
 Plugin 'pangloss/vim-javascript'    " Javascript Highlighter
+Plugin 'mxw/vim-jsx'                " React JSX highlighting
 
 
 " All of your Plugins must be added before the following line
